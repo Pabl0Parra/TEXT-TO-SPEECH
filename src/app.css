@@ -1,9 +1,9 @@
-.app{
+.app {
   width: 50%;
-  margin: 20px auto; 
+  margin: 20px auto;
 }
 
-.app h1{
+.app h1 {
   margin-bottom: 10px;
 }
 
@@ -15,28 +15,28 @@
   color: hsl(180, 2%, 23%);
 }
 
-.app p{
+.app p {
   font-weight: 400;
   line-height: 1.5;
   font-size: 1.2rem;
   color: #222222;
 }
 
-.speechSettings{
+.speechSettings {
   display: grid;
   grid-gap: 15px;
 }
 
-.speechSettings > select{
+.speechSettings > select {
   height: 30px;
 }
 
-.rangeContainer{
+.rangeContainer {
   display: flex;
   flex-direction: column;
 }
 
-.speechMenu{
+.speechMenu {
   padding: 3px 5px;
   background-color: white;
   box-shadow: 2px 2px 8px gray;
@@ -51,7 +51,7 @@
 
 .speechMenu .MuiSvgIcon-root {
   stroke: gainsboro;
-  stroke-width: .7;
+  stroke-width: 0.7;
   font-size: 1.3rem;
   margin-right: 5px;
   border-radius: 100%;
@@ -64,4 +64,8 @@
 
 .speechMenu .MuiSvgIcon-root:last-child {
   margin-right: 0;
+}
+
+.test {
+  width: 90%;
 }
