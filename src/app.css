@@ -1,27 +1,157 @@
-.app {
+.register {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  margin-top: 1%;
+  padding: 3%;
+}
+
+.register-left {
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+}
+
+.register-left input {
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  width: 60%;
+  background: #f8f9fa;
+  font-weight: bold;
+  color: #383d41;
+  margin-top: 30%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+
+.register-right {
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 25%;
+  -webkit-animation: mover 2s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.register-left p {
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+
+.register .register-form {
+  padding: 10%;
+  margin-top: 10%;
+}
+
+.btnRegister {
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
   width: 50%;
-  margin: 20px auto;
+  cursor: pointer;
 }
 
-.app h1 {
-  margin-bottom: 10px;
+.register .nav-tabs {
+  margin-top: 3%;
+  border: none;
+  background: #0062cc;
+  border-radius: 1.5rem;
+  width: 28%;
+  float: right;
 }
 
-.app > span {
-  display: block;
-  font-style: italic;
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: hsl(180, 2%, 23%);
+.register .nav-tabs .nav-link {
+  padding: 2%;
+  height: 34px;
+  font-weight: 600;
+  color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
 }
 
-.app p {
-  font-weight: 400;
-  line-height: 1.5;
-  font-size: 1.2rem;
-  color: #222222;
+.register .nav-tabs .nav-link:hover {
+  border: none;
 }
 
+.register .nav-tabs .nav-link.active {
+  width: 100px;
+  color: #0062cc;
+  border: 2px solid #0062cc;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #343eb6;
+  font-family: "Gotham Black";
+}
+.speechMenu {
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  width: 50%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  box-shadow: 2px 2px 8px gray;
+}
+
+.speechMenu .MuiSvgIcon-root {
+  stroke: gainsboro;
+  stroke-width: 0.7;
+  font-size: 1.9rem;
+  margin-right: 5px;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.speechMenu .MuiSvgIcon-root:hover {
+  background-color: gainsboro;
+  color: black;
+}
+
+.speechMenu .MuiSvgIcon-root:last-child {
+  margin-right: 0;
+}
 .speechSettings {
   display: grid;
   grid-gap: 15px;
@@ -36,36 +166,47 @@
   flex-direction: column;
 }
 
-.speechMenu {
-  padding: 3px 5px;
-  background-color: white;
-  box-shadow: 2px 2px 8px gray;
-  width: fit-content;
-  border-radius: 4px;
-  position: absolute;
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  right: 50%;
+.flag {
+  position: relative;
+  height: 20px;
+  margin-right: 8px;
 }
 
-.speechMenu .MuiSvgIcon-root {
-  stroke: gainsboro;
-  stroke-width: 0.7;
-  font-size: 1.3rem;
-  margin-right: 5px;
-  border-radius: 100%;
-  padding: 5px;
+textarea {
+  display: block;
+  box-sizing: padding-box;
+  overflow: hidden;
+
+  padding: 10px;
+  width: 100%;
+  font-size: 14px;
+  margin: auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px grey;
+  border: 0;
+
+  &:focus {
+    border: none;
+    outline: none;
+  }
 }
 
-.speechMenu .MuiSvgIcon-root:hover {
-  background-color: gainsboro;
+.settings-width {
+  width: 100%;
 }
 
-.speechMenu .MuiSvgIcon-root:last-child {
-  margin-right: 0;
+.slogan {
+  font-family: "Gotham Ultra Italic 500", sans-sariff;
 }
 
-.test {
-  width: 90%;
+@media only screen and (max-width: 800px) {
+  h3 {
+    display: inline-flex;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .settings-width {
+    width: 80%;
+  }
 }
