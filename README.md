@@ -1,6 +1,6 @@
 # This is a text-to-speech app made with React and Web Speech API.
 
-## The project is live @ ![ReadYourText](https://readyourtext.vercel.app)
+## The project is live @ [ReadYourText](https://readyourtext.vercel.app)
 
 # Getting Started with Create React App
 
