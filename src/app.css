@@ -65,6 +65,7 @@
 
 .register .register-form {
   padding: 10%;
+  padding-bottom: 3% !important;
   margin-top: 10%;
 }
 
@@ -197,6 +198,10 @@ textarea {
 
 .slogan {
   font-family: "Gotham Ultra Italic 500", sans-sariff;
+}
+
+.gif {
+  background-color: transparent;
 }
 
 @media only screen and (max-width: 800px) {

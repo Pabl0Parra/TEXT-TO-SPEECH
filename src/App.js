@@ -8,7 +8,7 @@ import {
 import { useSpeechSynthesis } from "react-speech-kit";
 import Dialog from "./Dialog";
 
-import { US, ES, IT, JP, DE, AE } from "country-flag-icons/react/3x2";
+import { US, ES, IT, DE, RU, CN } from "country-flag-icons/react/3x2";
 
 const App2 = () => {
   const [showSpeechSettings, setShowSpeechSettings] = useState(false);
@@ -71,6 +71,11 @@ const App2 = () => {
           <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
           <h3>Welcome to VoiceOver</h3>
           <p className="slogan">Where the highlighted text speaks</p>
+          <img
+            src="https://res.cloudinary.com/dcwx2biey/image/upload/v1667469128/1054-amazon-echo-speaker-flat_mokan2.gif"
+            alt="speaker gif"
+            className="gif"
+          />
         </div>
         <div className="col-md-9 register-right">
           <ul className="nav nav-tabs nav-justified" id="myTab" role="tablist">
@@ -145,16 +150,15 @@ const App2 = () => {
                   </div>
                   <div className="form-group">
                     <p>
-                      <JP className="flag" />
-                      それは 5
-                      世紀だけでなく、電子組版への飛躍にも生き残り、本質的に変わっていません。
+                      <RU className="flag" />
+                      Посмотрим, скоро ли закончится война и люди смогут жить в
+                      мире
                     </p>
                   </div>
                   <div className="form-group">
                     <p>
-                      <AE className="flag" />
-                      نحن نختبر حتى يتمكن الجميع من استخدامه وبالتالي مساعدة
-                      المزيد من المجتمعات
+                      <CN className="flag" />
+                      讓我們看看戰爭是否很快結束，人們可以和平相處
                     </p>
                   </div>
                   {supported && (
