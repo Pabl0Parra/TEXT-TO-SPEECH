@@ -114,7 +114,7 @@ const App2 = () => {
               aria-labelledby="home-tab"
             >
               <h3 className="register-heading">
-                Highlight the text, choose language & press play
+                Choose language, highlight the text & press speak
               </h3>
               <div className="row register-form">
                 <div className="col-md-12">
@@ -245,7 +245,7 @@ const App2 = () => {
               aria-labelledby="profile-tab"
             >
               <h3 className="register-heading">
-                Write a message, highlight it and choose a language
+                Write a message, choose a language, highlight it & press speak
               </h3>
               <div className="row register-form">
                 <div className="col-md-12">
