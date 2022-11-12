@@ -64,6 +64,7 @@ const App2 = () => {
     };
   }, []);
 
+  console.log(useEffect);
   return (
     <div className="container register">
       <div className="row">
@@ -72,7 +73,7 @@ const App2 = () => {
           <h3>Welcome to VoiceOver</h3>
           <p className="slogan">Where the highlighted text speaks</p>
           <img
-            src="https://res.cloudinary.com/dcwx2biey/image/upload/v1667469128/1054-amazon-echo-speaker-flat_mokan2.gif"
+            src="https://res.cloudinary.com/dcwx2biey/image/upload/v1668239051/1054-amazon-echo-speaker-flat_1_ywk6dt.gif"
             alt="speaker gif"
             className="gif"
           />
